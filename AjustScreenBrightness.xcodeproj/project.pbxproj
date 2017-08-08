@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E531F9971F394DF600E6919F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E531F9961F394DF600E6919F /* ViewController.xib */; };
+		E55324D71F394A760053779B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E55324D61F394A760053779B /* main.m */; };
+		E55324DA1F394A760053779B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E55324D91F394A760053779B /* AppDelegate.m */; };
+		E55324DD1F394A760053779B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55324DC1F394A760053779B /* ViewController.m */; };
+		E55324E01F394A760053779B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55324DE1F394A760053779B /* Main.storyboard */; };
+		E55324E21F394A760053779B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55324E11F394A760053779B /* Assets.xcassets */; };
+		E55324E51F394A760053779B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55324E31F394A760053779B /* LaunchScreen.storyboard */; };
+		E55324F01F394A760053779B /* AjustScreenBrightnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55324EF1F394A760053779B /* AjustScreenBrightnessTests.m */; };
+		E55324FB1F394A760053779B /* AjustScreenBrightnessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55324FA1F394A760053779B /* AjustScreenBrightnessUITests.m */; };
+		E553250A1F394AB80053779B /* Ajust_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E55325091F394AB80053779B /* Ajust_Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E55324EC1F394A760053779B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E55324CA1F394A760053779B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55324D11F394A760053779B;
+			remoteInfo = AjustScreenBrightness;
+		};
+		E55324F71F394A760053779B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E55324CA1F394A760053779B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55324D11F394A760053779B;
+			remoteInfo = AjustScreenBrightness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E531F9961F394DF600E6919F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E55324D21F394A760053779B /* AjustScreenBrightness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjustScreenBrightness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55324D61F394A760053779B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E55324D81F394A760053779B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E55324D91F394A760053779B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E55324DB1F394A760053779B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E55324DC1F394A760053779B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E55324DF1F394A760053779B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E55324E11F394A760053779B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E55324E41F394A760053779B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E55324E61F394A760053779B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55324EB1F394A760053779B /* AjustScreenBrightnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjustScreenBrightnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55324EF1F394A760053779B /* AjustScreenBrightnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AjustScreenBrightnessTests.m; sourceTree = "<group>"; };
+		E55324F11F394A760053779B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55324F61F394A760053779B /* AjustScreenBrightnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjustScreenBrightnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55324FA1F394A760053779B /* AjustScreenBrightnessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AjustScreenBrightnessUITests.m; sourceTree = "<group>"; };
+		E55324FC1F394A760053779B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55325081F394AB80053779B /* Ajust_Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ajust_Util.h; sourceTree = "<group>"; };
+		E55325091F394AB80053779B /* Ajust_Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ajust_Util.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E55324CF1F394A760053779B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55324E81F394A760053779B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55324F31F394A760053779B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E55324C91F394A760053779B = {
+			isa = PBXGroup;
+			children = (
+				E55324D41F394A760053779B /* AjustScreenBrightness */,
+				E55324EE1F394A760053779B /* AjustScreenBrightnessTests */,
+				E55324F91F394A760053779B /* AjustScreenBrightnessUITests */,
+				E55324D31F394A760053779B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E55324D31F394A760053779B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E55324D21F394A760053779B /* AjustScreenBrightness.app */,
+				E55324EB1F394A760053779B /* AjustScreenBrightnessTests.xctest */,
+				E55324F61F394A760053779B /* AjustScreenBrightnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E55324D41F394A760053779B /* AjustScreenBrightness */ = {
+			isa = PBXGroup;
+			children = (
+				E55324D81F394A760053779B /* AppDelegate.h */,
+				E55324D91F394A760053779B /* AppDelegate.m */,
+				E55324DB1F394A760053779B /* ViewController.h */,
+				E55324DC1F394A760053779B /* ViewController.m */,
+				E531F9961F394DF600E6919F /* ViewController.xib */,
+				E55325081F394AB80053779B /* Ajust_Util.h */,
+				E55325091F394AB80053779B /* Ajust_Util.m */,
+				E55324DE1F394A760053779B /* Main.storyboard */,
+				E55324E11F394A760053779B /* Assets.xcassets */,
+				E55324E31F394A760053779B /* LaunchScreen.storyboard */,
+				E55324E61F394A760053779B /* Info.plist */,
+				E55324D51F394A760053779B /* Supporting Files */,
+			);
+			path = AjustScreenBrightness;
+			sourceTree = "<group>";
+		};
+		E55324D51F394A760053779B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E55324D61F394A760053779B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E55324EE1F394A760053779B /* AjustScreenBrightnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				E55324EF1F394A760053779B /* AjustScreenBrightnessTests.m */,
+				E55324F11F394A760053779B /* Info.plist */,
+			);
+			path = AjustScreenBrightnessTests;
+			sourceTree = "<group>";
+		};
+		E55324F91F394A760053779B /* AjustScreenBrightnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E55324FA1F394A760053779B /* AjustScreenBrightnessUITests.m */,
+				E55324FC1F394A760053779B /* Info.plist */,
+			);
+			path = AjustScreenBrightnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E55324D11F394A760053779B /* AjustScreenBrightness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55324FF1F394A760053779B /* Build configuration list for PBXNativeTarget "AjustScreenBrightness" */;
+			buildPhases = (
+				E55324CE1F394A760053779B /* Sources */,
+				E55324CF1F394A760053779B /* Frameworks */,
+				E55324D01F394A760053779B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AjustScreenBrightness;
+			productName = AjustScreenBrightness;
+			productReference = E55324D21F394A760053779B /* AjustScreenBrightness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E55324EA1F394A760053779B /* AjustScreenBrightnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55325021F394A760053779B /* Build configuration list for PBXNativeTarget "AjustScreenBrightnessTests" */;
+			buildPhases = (
+				E55324E71F394A760053779B /* Sources */,
+				E55324E81F394A760053779B /* Frameworks */,
+				E55324E91F394A760053779B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55324ED1F394A760053779B /* PBXTargetDependency */,
+			);
+			name = AjustScreenBrightnessTests;
+			productName = AjustScreenBrightnessTests;
+			productReference = E55324EB1F394A760053779B /* AjustScreenBrightnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E55324F51F394A760053779B /* AjustScreenBrightnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55325051F394A760053779B /* Build configuration list for PBXNativeTarget "AjustScreenBrightnessUITests" */;
+			buildPhases = (
+				E55324F21F394A760053779B /* Sources */,
+				E55324F31F394A760053779B /* Frameworks */,
+				E55324F41F394A760053779B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55324F81F394A760053779B /* PBXTargetDependency */,
+			);
+			name = AjustScreenBrightnessUITests;
+			productName = AjustScreenBrightnessUITests;
+			productReference = E55324F61F394A760053779B /* AjustScreenBrightnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E55324CA1F394A760053779B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wsg;
+				TargetAttributes = {
+					E55324D11F394A760053779B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3MBF9B5ZRL;
+						ProvisioningStyle = Automatic;
+					};
+					E55324EA1F394A760053779B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3MBF9B5ZRL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E55324D11F394A760053779B;
+					};
+					E55324F51F394A760053779B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3MBF9B5ZRL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E55324D11F394A760053779B;
+					};
+				};
+			};
+			buildConfigurationList = E55324CD1F394A760053779B /* Build configuration list for PBXProject "AjustScreenBrightness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E55324C91F394A760053779B;
+			productRefGroup = E55324D31F394A760053779B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E55324D11F394A760053779B /* AjustScreenBrightness */,
+				E55324EA1F394A760053779B /* AjustScreenBrightnessTests */,
+				E55324F51F394A760053779B /* AjustScreenBrightnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E55324D01F394A760053779B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55324E51F394A760053779B /* LaunchScreen.storyboard in Resources */,
+				E55324E21F394A760053779B /* Assets.xcassets in Resources */,
+				E531F9971F394DF600E6919F /* ViewController.xib in Resources */,
+				E55324E01F394A760053779B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55324E91F394A760053779B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55324F41F394A760053779B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E55324CE1F394A760053779B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55324DD1F394A760053779B /* ViewController.m in Sources */,
+				E55324DA1F394A760053779B /* AppDelegate.m in Sources */,
+				E55324D71F394A760053779B /* main.m in Sources */,
+				E553250A1F394AB80053779B /* Ajust_Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55324E71F394A760053779B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55324F01F394A760053779B /* AjustScreenBrightnessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55324F21F394A760053779B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55324FB1F394A760053779B /* AjustScreenBrightnessUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E55324ED1F394A760053779B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55324D11F394A760053779B /* AjustScreenBrightness */;
+			targetProxy = E55324EC1F394A760053779B /* PBXContainerItemProxy */;
+		};
+		E55324F81F394A760053779B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55324D11F394A760053779B /* AjustScreenBrightness */;
+			targetProxy = E55324F71F394A760053779B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E55324DE1F394A760053779B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55324DF1F394A760053779B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E55324E31F394A760053779B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55324E41F394A760053779B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E55324FD1F394A760053779B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E55324FE1F394A760053779B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E55325001F394A760053779B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
+				INFOPLIST_FILE = AjustScreenBrightness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsg.test.AjustScreenBrightness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E55325011F394A760053779B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
+				INFOPLIST_FILE = AjustScreenBrightness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsg.test.AjustScreenBrightness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E55325031F394A760053779B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
+				INFOPLIST_FILE = AjustScreenBrightnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsg.test.AjustScreenBrightnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjustScreenBrightness.app/AjustScreenBrightness";
+			};
+			name = Debug;
+		};
+		E55325041F394A760053779B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
+				INFOPLIST_FILE = AjustScreenBrightnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsg.test.AjustScreenBrightnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjustScreenBrightness.app/AjustScreenBrightness";
+			};
+			name = Release;
+		};
+		E55325061F394A760053779B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
+				INFOPLIST_FILE = AjustScreenBrightnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsg.test.AjustScreenBrightnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AjustScreenBrightness;
+			};
+			name = Debug;
+		};
+		E55325071F394A760053779B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
+				INFOPLIST_FILE = AjustScreenBrightnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsg.test.AjustScreenBrightnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AjustScreenBrightness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E55324CD1F394A760053779B /* Build configuration list for PBXProject "AjustScreenBrightness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55324FD1F394A760053779B /* Debug */,
+				E55324FE1F394A760053779B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55324FF1F394A760053779B /* Build configuration list for PBXNativeTarget "AjustScreenBrightness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55325001F394A760053779B /* Debug */,
+				E55325011F394A760053779B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55325021F394A760053779B /* Build configuration list for PBXNativeTarget "AjustScreenBrightnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55325031F394A760053779B /* Debug */,
+				E55325041F394A760053779B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55325051F394A760053779B /* Build configuration list for PBXNativeTarget "AjustScreenBrightnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55325061F394A760053779B /* Debug */,
+				E55325071F394A760053779B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E55324CA1F394A760053779B /* Project object */;
+}
